@@ -1,12 +1,10 @@
 import { Box, Stack, Typography } from '@mui/material'
 import React, { useState } from 'react'
-import{ logo} from '../utils/constants'
 import { Link } from 'react-router-dom'
 import SearchBar from './SearchBar'
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
-import { red } from '@mui/material/colors'
 const Navbar = () => {
   const [darkMode,setDarkMode]=useState(false)
 
