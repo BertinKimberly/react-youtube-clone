@@ -16,7 +16,6 @@ const SearchBar = () => {
       setSearchTerm('');
     }
   };
-
   return (
     <Paper
       component='form'
@@ -35,7 +34,7 @@ const SearchBar = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <IconButton type='submit' sx={{ p: '10px', color: 'red' }} aria-label='search'>
+      <IconButton type='submit' sx={{ p: '10px', color: 'rgb(23, 23, 94)' }} aria-label='search'>
         <SearchIcon />
       </IconButton>
     </Paper>

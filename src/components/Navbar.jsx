@@ -1,5 +1,5 @@
 import { Box, Stack, Typography } from '@mui/material'
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import { Link } from 'react-router-dom'
 import SearchBar from './SearchBar'
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -23,13 +23,16 @@ const Navbar = () => {
          <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <SmartDisplayIcon sx={{
         fontSize:40,
-        color:'red'
+        color:'rgb(23, 23, 94)'
       }}/>
       <Typography variant='h5' sx={{fontWeight:"bold",color:'gray'}}>BRT</Typography>
     </Link>
-     <SearchBar/>
-     <Box onClick={changeMode}>
+    <Box sx={{display:"flex",alignItems:"center"}}>
+      {}
+     <SearchBar />
+     <Box onClick={changeMode} sx={{cursor:"pointer"}}>
       {darkMode? <WbSunnyIcon sx={{color:"#fff"}}/> : <ModeNightIcon sx={{color:"#fff"}}/>}
+     </Box>
      </Box>
     </Stack>
   )
