@@ -3,7 +3,6 @@ import { Box, Stack } from "@mui/material";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import {
   Feed,
-  Channel,
   ChannelDetails,
   VideoDetails,
   Navbar,
