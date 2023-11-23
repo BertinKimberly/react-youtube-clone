@@ -76,7 +76,7 @@ a {
   transition: all 0.3s ease;
 }
 .video-card:hover{
-   transform: scale(1.1,1.1);
+   transform: scale(1.05,1.05);
    transition:0.5s ease 0.4s;
    border-radius: 0px
 }
